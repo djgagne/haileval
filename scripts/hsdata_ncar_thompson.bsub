@@ -1,0 +1,16 @@
+#!/bin/bash
+#BSUB -P NWSA0001
+#BSUB -W 12:00
+#BSUB -n 40
+#BSUB -J hsdata_th
+#BSUB -o hsdata_th.%J.log
+#BSUB -e hsdata_th.%J.log
+#BSUB -q geyser
+#BSUB -B
+#BSUB -N
+source /glade/u/apps/opt/lmod/4.2.1/init/bash
+source ~/.bash_profile
+cd ~/haileval
+module load netcdf
+source activate hail
+hsdata config/ncar_data_thompson.config -p 40
