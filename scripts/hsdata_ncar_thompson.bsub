@@ -1,7 +1,7 @@
 #!/bin/bash
 #BSUB -P NWSA0001
 #BSUB -W 12:00
-#BSUB -n 40
+#BSUB -n 20
 #BSUB -J hsdata_th
 #BSUB -o hsdata_th.%J.log
 #BSUB -e hsdata_th.%J.log
@@ -13,4 +13,4 @@ source ~/.bash_profile
 cd ~/haileval
 module load netcdf
 source activate hail
-hsdata config/ncar_data_thompson.config -p 40
+hsdata config/ncar_data_thompson.config -p 20
