@@ -1,0 +1,10 @@
+Ensemble_Member,IC,BC,Microphysics,LSM,PBL,MicrophysicsTrue
+wrf-core01_arw,00Z ARPSa,00Z NAMf,Thompson,Noah,MYJ,Thompson
+wrf-core03_arw,arw_cn+em-p1_pert,21Z SREF em-p1,P3,Noah,YSU,P3
+wrf-core04_arw,arw_cn+em-n2_pert,21Z SREF em-n2,MY,Noah,MYNN,MY
+wrf-core05_arw,arw_cn+nmm-p1_pert,21Z SREF nmm-p1,Morrison,Noah,MYJ,Morrison
+wrf-core06_arw,arw_cn+nmmb-n1_pert,21Z SREF nmmb-n1,P3,Noah,YSU,P3
+wrf-core07_arw,arw_cn-nmmb_p1_pert,21Z SREF nmmb-p1,MY,Noah,MYNN,MY
+wrf-core08_arw,arw_cn-em-n1_pert,21Z SREF em-n1,Morrison,Noah,YSU,Morrison
+wrf-core09_arw,arw_cn-em-p2_pert,21Z SREF em-p2,P3,Noah,MYJ,P3
+wrf-core10_arw,arw_cn-nmmb-n3_pert,21Z SREF nmmb-n3,Thompson,Noah,MYNN,Thompson
